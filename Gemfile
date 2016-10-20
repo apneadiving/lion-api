@@ -1,4 +1,4 @@
-ruby '2.2.0'
+ruby '2.2.3'
 
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
@@ -34,9 +34,9 @@ end
 
 group :test, :development do
   gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
-  gem 'pry-byebug'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
+  gem 'pry'
   gem 'rubocop'
   gem 'rspec_api_blueprint', github: 'playround/rspec_api_blueprint', require: false
   gem 'factory_girl_rails', github: 'thoughtbot/factory_girl_rails'
